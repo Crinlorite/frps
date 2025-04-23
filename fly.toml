@@ -1,5 +1,8 @@
-app = 'bedcrin'
-primary_region = 'lhr'
+app = "bedcrin"
+primary_region = "lhr"
+
+[build]
+image = "ghcr.io/fatedier/frps:v0.58.1"
 
 [[services]]
   internal_port = 7000
