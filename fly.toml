@@ -21,7 +21,7 @@ image = "ghcr.io/fatedier/frps:v0.58.1"
   protocol = "udp"
 
   [[services.ports]]
-    port = 7000
+    port = 19132
 
 [[vm]]
   cpu_kind = "shared"
