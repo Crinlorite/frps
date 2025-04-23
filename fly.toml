@@ -1,0 +1,17 @@
+app = "crinlorite"
+
+[build]
+image = "ghcr.io/fatedier/frps:v0.58.1"
+
+[[services]]
+  internal_port = 7000
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 7000
+    handlers = []
+
+  [[services.tcp_checks]]
+    interval = 10000
+    timeout = 2000
+

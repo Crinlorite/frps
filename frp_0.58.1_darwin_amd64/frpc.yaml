@@ -1,0 +1,12 @@
+serverAddr: 137.66.22.20
+serverPort: 7000
+
+auth:
+  token: tu_token_seguro  # si usas token
+
+proxies:
+  - name: bedrock
+    type: udp
+    localIP: 127.0.0.1
+    localPort: 19132
+    remotePort: 19132

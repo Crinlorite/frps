@@ -1,0 +1,13 @@
+serverAddr: crinlorite.fly.dev
+serverPort: 7000
+
+transport:
+  protocol: tcp
+
+proxies:
+  mc-bedrock:
+    type: udp
+    localIP: 127.0.0.1
+    localPort: 19132
+    remotePort: 19132
+

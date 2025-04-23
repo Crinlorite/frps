@@ -1,0 +1,16 @@
+app = "crinlorite"
+primary_region = "lhr"
+
+[build]
+  image = "ghcr.io/fatedier/frps:v0.58.1"
+
+[env]
+
+[[services]]
+  internal_port = 7000
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 7000
+
+[experimental]
