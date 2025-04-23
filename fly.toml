@@ -1,5 +1,3 @@
-app = "crinlorite"
-
 [build]
 image = "ghcr.io/fatedier/frps:v0.58.1"
 
